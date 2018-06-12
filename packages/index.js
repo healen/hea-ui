@@ -3,9 +3,12 @@
  * Date: 18/6/3
  */
 import HeaButton from './Button/index';
-import HeaIco from './Ico/index'
+import HeaIco from './Ico/index';
+import pkg from '../package.json'
 
-const version = "1.0.5";
+
+
+const version = pkg.version;
 
 const components = [
   HeaButton,

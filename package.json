@@ -1,6 +1,6 @@
 {
   "name": "hea-ui",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "hea-ui is a h5 ui component for vue",
   "author": "zhangxiaodong <live_web@126.com>",
   "main": "packages/index.js",
@@ -72,10 +72,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/healen/hea-ui.git"
+    "url": "git+https://github.com/healen/hea-ui.git"
   },
   "keywords": [
     "ui"
   ],
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/healen/hea-ui/issues"
+  },
+  "homepage": "https://github.com/healen/hea-ui#readme"
 }
