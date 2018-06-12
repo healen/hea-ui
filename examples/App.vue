@@ -39,7 +39,6 @@ export default {
 <style lang="less" type="text/less">
   @import "./assets/less/index";
   @import '../packages/theme-default/lib/index.css';
-
   .container{
     margin: 48px auto;
     width: 90%;

@@ -3,7 +3,7 @@
     <div class="index-container">
       <img src="../assets/img/logo.png">
       <p style="text-align: left">
-        dj-ui 是一款比较成熟的前端组件和解决方案，基于vue开发，后续会发展成vue react任选的方案; 完美的解决了业务与视图之间的耦合关系组件化开发，效率更高，速度更快，无缝对接数据接口
+        hea-ui 是一款比较成熟的前端组件和解决方案，基于vue开发，后续会发展成vue react任选的方案; 完美的解决了业务与视图之间的耦合关系组件化开发，效率更高，速度更快，无缝对接数据接口
       </p>
     </div>
     <div class="separate-panel">

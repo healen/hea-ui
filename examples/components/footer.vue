@@ -31,7 +31,7 @@
     <div class="footer-container">
       <div type="flex" justify="space-between">
         <div class="text-left">
-          <a href="https://monkeywangs.github.io/">
+          <a href="https://healen.github.io/heaUi">
             <img src="../assets/img/avater.png" width="80">
           </a>
           <div>

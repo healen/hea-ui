@@ -4,8 +4,8 @@ import router from './router'
 import demoBlock from './components/demo-block.vue'
 import HeaUi from '../packages/index'
 import store from './store'
-Vue.component('demo-block', demoBlock)
-Vue.use(HeaUi)
+Vue.component('demo-block', demoBlock);
+Vue.use(HeaUi);
 Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({

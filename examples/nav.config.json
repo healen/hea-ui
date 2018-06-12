@@ -35,6 +35,11 @@
           "desc": "Button 按钮",
           "name": "button",
           "path": "/button"
+        },
+        {
+          "desc": "Ico 图标",
+          "name": "ico",
+          "path": "/ico"
         }
       ]
     },
