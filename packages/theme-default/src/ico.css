@@ -64,7 +64,7 @@
     @m add2:before { content: "\e621"; }
     @m color:before { content: "\e604"; }
     @m star1:before { content: "\e61a"; }
-    @m head_photo:before { content: "\e605"; }
+    @m head-photo:before { content: "\e605"; }
     @m heart1:before { content: "\e6a7"; }
     @m heart2:before { content: "\e610"; }
     @m loading1:before { content: "\e644"; }
@@ -73,31 +73,31 @@
     @m remove:before { content: "\e60d"; }
     @m close:before { content: "\e606"; }
     @m minus1:before { content: "\e638"; }
-    @m info_outline:before { content: "\e680"; }
+    @m info-outline:before { content: "\e680"; }
     @m loading3:before { content: "\e61f"; }
     @m top:before { content: "\e607"; }
     @m down:before { content: "\e620"; }
     @m right2:before { content: "\e660"; }
-    @m left2_copy:before { content: "\e661"; }
+    @m left2-copy:before { content: "\e661"; }
     @m right1:before { content: "\e68b"; }
     @m location:before { content: "\e6c7"; }
     @m left:before { content: "\e675"; }
     @m location1:before { content: "\e640"; }
-    @m error_c:before { content: "\e76a"; }
+    @m error-c:before { content: "\e76a"; }
     @m question:before { content: "\e778"; }
     @m tupian:before { content: "\e692"; }
-    @m zoom_in:before { content: "\e7c3"; }
-    @m zoom_out:before { content: "\e7c4"; }
-    @m icon_boss_fill:before { content: "\e8e8"; }
-    @m eye_close:before { content: "\e60f"; }
-    @m eye_o:before { content: "\e617"; }
+    @m zoom-in:before { content: "\e7c3"; }
+    @m zoom-out:before { content: "\e7c4"; }
+    @m icon-boss-fill:before { content: "\e8e8"; }
+    @m eye-close:before { content: "\e60f"; }
+    @m eye-o:before { content: "\e617"; }
     @m sorting:before { content: "\e976"; }
     @m angular:before { content: "\e608"; }
     @m npm:before { content: "\e611"; }
     @m vuejs:before { content: "\e641"; }
     @m areachart:before { content: "\e7af"; }
-    @m cloudupload_o:before { content: "\e7d9"; }
-    @m clouddownload_o:before { content: "\e7da"; }
+    @m cloudupload-o:before { content: "\e7d9"; }
+    @m clouddownload-o:before { content: "\e7da"; }
     @m zan:before { content: "\e609"; }
   }
 }

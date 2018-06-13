@@ -6,8 +6,6 @@ import HeaButton from './Button/index';
 import HeaIco from './Ico/index';
 import pkg from '../package.json'
 
-
-
 const version = pkg.version;
 
 const components = [

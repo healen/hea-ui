@@ -1,13 +1,19 @@
 <template>
   <button @click="$emit('click')"
-          class="hea__button"
+          class="hea-button"
           :disabled="disabled"
-          :style="style"
-          :class="['hea__button--'+type,{'is-plain': plain, 'is-disabled': disabled, 'is-round': round},'hea__button--size-'+size]">
-    <i v-if="icon !== ''" :class="icon"></i>
+          :class="['hea-button-'+type,{'is-plain': plain, 'is-disabled': disabled, 'is-round': round},'hea-button-size-'+size]">
+    <i v-if="icon !== ''" :class="['hea-ico',`hea-ico-${icon}`]"></i>
     <slot></slot>
   </button>
 </template>
+<style lang="less" scoped="">
+  .hea__ico{
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+</style>
 <script>
   export default{
     name: 'HeaButton',
@@ -15,9 +21,6 @@
       type: {
         type: String,
         default: 'default'
-      },
-      style:{
-        type:String,
       },
       size: {
         type: String,

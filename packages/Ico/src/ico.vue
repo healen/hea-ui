@@ -1,7 +1,7 @@
 
 <template>
 
-  <i class="hea__ico" :class="[`hea__ico--${name}`]" :style="{color}" @click="$emit('click')" >
+  <i class="hea-ico" :class="[`hea-ico-${name}`]" :style="{color}" @click="$emit('click')" >
 
     <div v-if="info" class="info">{{info}}</div>
 

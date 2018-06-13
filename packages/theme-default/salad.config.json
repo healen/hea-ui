@@ -8,8 +8,8 @@
         "descendent": "e"
       },
       "separators": {
-        "descendent": "__",
-        "modifier": "--"
+        "descendent": "-",
+        "modifier": "-"
       }
     }
   }

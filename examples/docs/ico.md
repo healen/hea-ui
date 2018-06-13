@@ -31,30 +31,30 @@
 <div class="demo-block">
 	<div class="icolist">
 	    <hea-ico name='zan' info="zan"></hea-ico>
-	    <hea-ico name='clouddownload_o' info="clouddownload_o"></hea-ico>
-	    <hea-ico name='cloudupload_o' info="cloudupload_o"></hea-ico>
+	    <hea-ico name='clouddownload-o' info="clouddownload-o"></hea-ico>
+	    <hea-ico name='cloudupload-o' info="cloudupload-o"></hea-ico>
 	    <hea-ico name='areachart' info="areachart"></hea-ico>
 	    <hea-ico name='vuejs' info="vuejs"></hea-ico>
 	    <hea-ico name='angular' info="angular"></hea-ico>
 	    <hea-ico name='sorting' info="sorting"></hea-ico>
-	    <hea-ico name='eye_o' info="eye_o"></hea-ico>
-	    <hea-ico name='eye_close' info="eye_close"></hea-ico>
-	    <hea-ico name='icon_boss_fill' info="icon_boss_fill"></hea-ico>
-	    <hea-ico name='zoom_out' info="zoom_out"></hea-ico>
-	    <hea-ico name='zoom_in' info="zoom_in"></hea-ico>
+	    <hea-ico name='eye-o' info="eye-o"></hea-ico>
+	    <hea-ico name='eye-close' info="eye-close"></hea-ico>
+	    <hea-ico name='icon-boss-fill' info="icon-boss-fill"></hea-ico>
+	    <hea-ico name='zoom-out' info="zoom-out"></hea-ico>
+	    <hea-ico name='zoom-in' info="zoom-in"></hea-ico>
 	    <hea-ico name='tupian' info="tupian"></hea-ico>
 	    <hea-ico name='question' info="question"></hea-ico>
-	    <hea-ico name='error_c' info="error_c"></hea-ico>
+	    <hea-ico name='error-c' info="error-c"></hea-ico>
 	    <hea-ico name='location1' info="location1"></hea-ico>
 	    <hea-ico name='left' info="left"></hea-ico>
 	    <hea-ico name='location' info="location"></hea-ico>
 	    <hea-ico name='right1' info="right1"></hea-ico>
-	    <hea-ico name='left2_copy' info="left2_copy"></hea-ico>
+	    <hea-ico name='left2-copy' info="left2-copy"></hea-ico>
 	    <hea-ico name='right2' info="right2"></hea-ico>
 	    <hea-ico name='down' info="down"></hea-ico>
 	    <hea-ico name='top' info="top"></hea-ico>
 	    <hea-ico name='loading3' info="loading3"></hea-ico>
-	    <hea-ico name='info_outline' info="info_outline"></hea-ico>
+	    <hea-ico name='info-outline' info="info-outline"></hea-ico>
 	    <hea-ico name='minus1' info="minus1"></hea-ico>
 	    <hea-ico name='close' info="close"></hea-ico>
 	    <hea-ico name='remove' info="remove"></hea-ico>
@@ -63,7 +63,7 @@
 	    <hea-ico name='loading1' info="loading1"></hea-ico>
 	    <hea-ico name='heart2' info="heart2"></hea-ico>
 	    <hea-ico name='heart1' info="heart1"></hea-ico>
-	    <hea-ico name='head_photo' info="head_photo"></hea-ico>
+	    <hea-ico name='head-photo' info="head-photo"></hea-ico>
 	    <hea-ico name='star1' info="star1"></hea-ico>
 	    <hea-ico name='color' info="color"></hea-ico>
 	    <hea-ico name='add2' info="add2"></hea-ico>
@@ -116,30 +116,30 @@
 
 <div class="icolist">
     <hea-ico name='zan' info="zan"></hea-ico>
-    <hea-ico name='clouddownload_o' info="clouddownload_o"></hea-ico>
-    <hea-ico name='cloudupload_o' info="cloudupload_o"></hea-ico>
+    <hea-ico name='clouddownload-o' info="clouddownload-o"></hea-ico>
+    <hea-ico name='cloudupload-o' info="cloudupload-o"></hea-ico>
     <hea-ico name='areachart' info="areachart"></hea-ico>
     <hea-ico name='vuejs' info="vuejs"></hea-ico>
     <hea-ico name='angular' info="angular"></hea-ico>
     <hea-ico name='sorting' info="sorting"></hea-ico>
-    <hea-ico name='eye_o' info="eye_o"></hea-ico>
-    <hea-ico name='eye_close' info="eye_close"></hea-ico>
-    <hea-ico name='icon_boss_fill' info="icon_boss_fill"></hea-ico>
-    <hea-ico name='zoom_out' info="zoom_out"></hea-ico>
-    <hea-ico name='zoom_in' info="zoom_in"></hea-ico>
+    <hea-ico name='eye-o' info="eye-o"></hea-ico>
+    <hea-ico name='eye-close' info="eye-close"></hea-ico>
+    <hea-ico name='icon-boss-fill' info="icon-boss-fill"></hea-ico>
+    <hea-ico name='zoom-out' info="zoom-out"></hea-ico>
+    <hea-ico name='zoom-in' info="zoom-in"></hea-ico>
     <hea-ico name='tupian' info="tupian"></hea-ico>
     <hea-ico name='question' info="question"></hea-ico>
-    <hea-ico name='error_c' info="error_c"></hea-ico>
+    <hea-ico name='error-c' info="error-c"></hea-ico>
     <hea-ico name='location1' info="location1"></hea-ico>
     <hea-ico name='left' info="left"></hea-ico>
     <hea-ico name='location' info="location"></hea-ico>
     <hea-ico name='right1' info="right1"></hea-ico>
-    <hea-ico name='left2_copy' info="left2_copy"></hea-ico>
+    <hea-ico name='left2-copy' info="left2-copy"></hea-ico>
     <hea-ico name='right2' info="right2"></hea-ico>
     <hea-ico name='down' info="down"></hea-ico>
     <hea-ico name='top' info="top"></hea-ico>
     <hea-ico name='loading3' info="loading3"></hea-ico>
-    <hea-ico name='info_outline' info="info_outline"></hea-ico>
+    <hea-ico name='info-outline' info="info-outline"></hea-ico>
     <hea-ico name='minus1' info="minus1"></hea-ico>
     <hea-ico name='close' info="close"></hea-ico>
     <hea-ico name='remove' info="remove"></hea-ico>
@@ -148,7 +148,7 @@
     <hea-ico name='loading1' info="loading1"></hea-ico>
     <hea-ico name='heart2' info="heart2"></hea-ico>
     <hea-ico name='heart1' info="heart1"></hea-ico>
-    <hea-ico name='head_photo' info="head_photo"></hea-ico>
+    <hea-ico name='head-photo' info="head-photo"></hea-ico>
     <hea-ico name='star1' info="star1"></hea-ico>
     <hea-ico name='color' info="color"></hea-ico>
     <hea-ico name='add2' info="add2"></hea-ico>

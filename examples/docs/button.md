@@ -110,6 +110,41 @@
 
 
 
+### 带icon的按钮
+
+按钮中加入属性 ```icon``` 值为 ```现有图标库``` 就是带icon的按钮
+
+<div class="demo-block">
+  <div>
+    <hea-button icon="heart1" type="danger">小姐姐给我个爱心吧</hea-button>
+    <hea-button type="primary" icon="clouddownload_o">下载</hea-button>
+    <hea-button type="success" icon="cloudupload_o">上传</hea-button>
+    <hea-button type="info" icon="eye_o">睁开眼</hea-button>
+    <hea-button type="warning" icon="eye_close">闭上眼</hea-button>
+    <hea-button type="danger" icon="angular">Angular</hea-button>
+  </div>
+</div>
+
+::: demo
+```html
+
+<div>
+  <hea-button icon="heart1" type="danger">小姐姐给我个爱心吧</hea-button>
+  <hea-button type="primary" icon="clouddownload_o">下载</hea-button>
+  <hea-button type="success" icon="cloudupload_o">上传</hea-button>
+  <hea-button type="info" icon="eye_o">睁开眼</hea-button>
+  <hea-button type="warning" icon="eye_close">闭上眼</hea-button>
+  <hea-button type="danger" icon="angular">Angular</hea-button>
+</div>
+
+
+  
+```
+:::
+
+
+
+
 ### 不同尺寸
 
 Button 组件提供除了默认值以外的三种尺寸，可以在不同场景下选择合适的按钮尺寸。
