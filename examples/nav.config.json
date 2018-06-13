@@ -40,6 +40,11 @@
           "desc": "Ico 图标",
           "name": "ico",
           "path": "/ico"
+        },
+        {
+          "desc": "动画&过渡",
+          "name": "animate",
+          "path": "/animate"
         }
       ]
     },
