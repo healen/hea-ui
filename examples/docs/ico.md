@@ -88,7 +88,6 @@
 	    <hea-ico name='star' info="star"></hea-ico>
 	    <hea-ico name='info' info="info"></hea-ico>
 	    <hea-ico name='msg' info="msg"></hea-ico>
-	    <hea-ico name='fenxiang' info="fenxiang"></hea-ico>
 	    <hea-ico name='news' info="news"></hea-ico>
 	    <hea-ico name='admin' info="admin"></hea-ico>
 	    <hea-ico name='news1' info="news1"></hea-ico>
@@ -108,7 +107,6 @@
 	    <hea-ico name='28' info="28"></hea-ico>
 	    <hea-ico name='back' info="back"></hea-ico>
 	    <hea-ico name='date' info="date"></hea-ico>
-	    <hea-ico name='birdxiaoniao' info="birdxiaoniao"></hea-ico>
 	    <hea-ico name='more1' info="more1"></hea-ico>
 	</div>
 </div>
@@ -195,7 +193,6 @@
     <hea-ico name='28' info="28"></hea-ico>
     <hea-ico name='back' info="back"></hea-ico>
     <hea-ico name='date' info="date"></hea-ico>
-    <hea-ico name='birdxiaoniao' info="birdxiaoniao"></hea-ico>
     <hea-ico name='more1' info="more1"></hea-ico>
 </div>
 

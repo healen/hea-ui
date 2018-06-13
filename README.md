@@ -17,7 +17,7 @@ npm install hea-ui --save  vant
 import Vue from 'vue';
 import HeaUi from 'hea-ui';
 import 'hea-ui/lib/index.css';
-Vue.use(Vant);
+Vue.use(HeaUi);
 ```
 -
 
