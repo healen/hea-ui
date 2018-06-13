@@ -62,7 +62,7 @@
   <div class="side-nav">
 
     <div class="animatebox">
-      <p>选择一种显示代码过渡动画</p>
+      <p>选择页面切换效果</p>
       <select v-model="$store.state.global.currentAnimate">
         <option value="">--动画类型--</option>
         <option v-for="animate in $store.state.global.animateList" :value="animate.value">{{animate.label}}</option>

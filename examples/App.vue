@@ -3,9 +3,16 @@
     <mainHeader></mainHeader>
     <div class="container" v-if="!isIndex">
       <sideNav class="nav"></sideNav>
-      <router-view class="view"></router-view>
+      <transition :name="$store.state.global.currentAnimate||'fadeIn'">
+        <router-view class="view"></router-view>
+      </transition>
+
+
     </div>
-    <router-view class="page" v-else></router-view>
+    <transition :name="$store.state.global.currentAnimate||'fadeIn'" v-else>
+      <router-view class="page"></router-view>
+    </transition>
+
     <mainFooter v-if="!isIndex"></mainFooter>
   </div>
 </template>
@@ -20,7 +27,7 @@ export default {
   name: 'app',
   data () {
     return {
-      isIndex: true
+      isIndex: true,
     }
   },
   watch: {

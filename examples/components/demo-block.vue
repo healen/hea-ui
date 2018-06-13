@@ -1,6 +1,6 @@
 <template>
   <div class="docs-demo-wrapper">
-    <transition :name="$store.state.global.currentAnimate">
+    <transition name="fadeIn">
       <div v-if="isExpand" class="demo-container">
         <div span="14">
           <div class="docs-demo docs-demo--expand">
