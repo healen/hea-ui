@@ -53,6 +53,12 @@
       "path": "/component",
       "items": [
 
+        {
+          "desc": "栅格系统",
+          "name": "grid",
+          "path": "/grid"
+        }
+
       ]
     }
   ]

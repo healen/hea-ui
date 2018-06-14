@@ -1,17 +1,17 @@
 {
-  "name": "dj-ui-theme-default",
+  "name": "hea-ui-theme-default",
   "version": "1.0.0",
-  "description": "vv-ui component default theme.",
+  "description": "hea-ui component default theme.",
   "main": "lib/index.css",
   "scripts": {
     "dev": "gulp build && gulp watch",
     "build": "gulp build"
   },
   "keywords": [
-    "dj-ui",
+    "hea-ui",
     "theme"
   ],
-  "author": "monkeywang",
+  "author": "healen",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",

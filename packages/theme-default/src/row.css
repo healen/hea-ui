@@ -1,0 +1,43 @@
+@b hea{
+  @e row{
+    position: relative;
+    box-sizing: border-box;
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    @m flex{
+      display: flex;
+      &:before,
+      &:after {
+        display: none;
+      }
+      &.pack-start{
+        justify-content: flex-start;
+      }
+      &.pack-center{
+        justify-content: center;
+      }
+      &.pack-end{
+        justify-content: flex-end;
+      }
+      &.pack-between{
+        justify-content: space-between;
+      }
+      &.pack-around{
+        justify-content: space-around;
+      }
+      &.align-start{
+        align-items: flex-start;
+      }
+      &.align-center{
+        align-items: center;
+      }
+      &.align-end{
+        align-items: flex-end;
+      }
+    }
+  }
+
+}
