@@ -8,7 +8,7 @@
 #### NPM
 
 ```shell
-npm install hea-ui --save  vant
+npm install hea-ui --save
 ```
 
 ## 快速上手
