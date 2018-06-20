@@ -14,3 +14,4 @@ dist
 *.njsproj
 *.sln
 *.map
+package-lock.json
