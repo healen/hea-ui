@@ -1,4 +1,4 @@
-import  Col from './src';
+import  Col from './src/index';
 
 Col.install = (Vue)=>{
   Vue.component(Col.name,Col)

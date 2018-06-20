@@ -103,6 +103,11 @@ module.exports = {
         include: [resolve('examples'), resolve('test'), resolve('packages')]
       },
       {
+        test: /\.jsx$/,
+        loader: 'jsx-loader',
+        include: [resolve('examples'), resolve('test'), resolve('packages')]
+      },
+      {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
         loader: 'url-loader',
         options: {

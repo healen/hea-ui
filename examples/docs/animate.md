@@ -144,7 +144,7 @@ hea-ui提供了丰富的动画效果，其中包括fade动画，slide动画，zo
 	  <div>
 	    <hea-button @click="show = !show" type="primary">Click Me</hea-button>
 	    <div>
-    		<transition v-for="(f,i) in fade" :name="f.value">
+    		<transition v-for="(f,i) in fade" :name="f.value" :key="i">
 				<div v-show="show" class="transition-box" :key="i">
 					{{f.label}}
 				</div>
@@ -164,7 +164,7 @@ hea-ui提供了丰富的动画效果，其中包括fade动画，slide动画，zo
  	<div>
 	    <hea-button @click="show = !show" type="primary">Click Me</hea-button>
 	    <div>
-			<transition v-for="(f,i) in fade" :name="f.value">
+			<transition v-for="(f,i) in fade" :name="f.value" :key="i">
 				<div v-show="show" class="transition-box" :key="i">
 					{{f.label}}
 				</div>
@@ -233,7 +233,7 @@ hea-ui提供了丰富的动画效果，其中包括fade动画，slide动画，zo
 	  <div>
 	    <hea-button @click="showslide = !showslide" type="primary">Click Me</hea-button>
 	    <div>
-    		<transition v-for="(f,i) in slide" :name="f.value">
+    		<transition v-for="(f,i) in slide" :name="f.value" :key="i">
 				<div v-show="showslide" class="transition-box" :key="i">
 					{{f.label}}
 				</div>
@@ -253,7 +253,7 @@ hea-ui提供了丰富的动画效果，其中包括fade动画，slide动画，zo
 	  <div>
 	    <hea-button @click="showzoom = !showzoom" type="primary">Click Me</hea-button>
 	    <div>
-    		<transition v-for="(f,i) in zoom" :name="f.value">
+    		<transition v-for="(f,i) in zoom" :name="f.value" :key="i">
 				<div v-show="showzoom" class="transition-box" :key="i">
 					{{f.label}}
 				</div>
@@ -273,7 +273,7 @@ hea-ui提供了丰富的动画效果，其中包括fade动画，slide动画，zo
 	  <div>
 	    <hea-button @click="showrota = !showrota" type="primary">Click Me</hea-button>
 	    <div>
-    		<transition v-for="(f,i) in rota" :name="f.value">
+    		<transition v-for="(f,i) in rota" :name="f.value" :key="i">
 				<div v-show="showrota" class="transition-box" :key="i">
 					{{f.label}}
 				</div>
@@ -292,7 +292,7 @@ hea-ui提供了丰富的动画效果，其中包括fade动画，slide动画，zo
 	  <div>
 	    <hea-button @click="showother = !showother" type="primary">Click Me</hea-button>
 	    <div>
-    		<transition v-for="(f,i) in othor" :name="f.value">
+    		<transition v-for="(f,i) in othor" :name="f.value" :key="i">
 				<div v-show="showother" class="transition-box" :key="i">
 					{{f.label}}
 				</div>
@@ -313,7 +313,7 @@ hea-ui提供了丰富的动画效果，其中包括fade动画，slide动画，zo
 		<th>名称</th>
 		<th>描述</th>
 	</tr>
-	<tr v-for="(item,index) in fade" :key="item">
+	<tr v-for="(item,index) in fade" :key="index">
 		<td>{{index+1}}</td>
 		<td width="200">{{item.value}}</td>
 		<td width="200">{{item.label}}</td>
@@ -327,7 +327,7 @@ hea-ui提供了丰富的动画效果，其中包括fade动画，slide动画，zo
 		<th>名称</th>
 		<th>描述</th>
 	</tr>
-	<tr v-for="(item,index) in slide" :key="item">
+	<tr v-for="(item,index) in slide" :key="index">
 		<td>{{index+1}}</td>
 		<td width="200">{{item.value}}</td>
 		<td width="200">{{item.label}}</td>
@@ -341,7 +341,7 @@ hea-ui提供了丰富的动画效果，其中包括fade动画，slide动画，zo
 		<th>名称</th>
 		<th>描述</th>
 	</tr>
-	<tr v-for="(item,index) in zoom" :key="item">
+	<tr v-for="(item,index) in zoom" :key="index">
 		<td>{{index+1}}</td>
 		<td width="200">{{item.value}}</td>
 		<td width="200">{{item.label}}</td>
@@ -355,7 +355,7 @@ hea-ui提供了丰富的动画效果，其中包括fade动画，slide动画，zo
 		<th>名称</th>
 		<th>描述</th>
 	</tr>
-	<tr v-for="(item,index) in rota" :key="item">
+	<tr v-for="(item,index) in rota" :key="index">
 		<td>{{index+1}}</td>
 		<td width="200">{{item.value}}</td>
 		<td width="200">{{item.label}}</td>
@@ -369,7 +369,7 @@ hea-ui提供了丰富的动画效果，其中包括fade动画，slide动画，zo
 		<th>名称</th>
 		<th>描述</th>
 	</tr>
-	<tr v-for="(item,index) in othor" :key="item">
+	<tr v-for="(item,index) in othor" :key="index">
 		<td>{{index+1}}</td>
 		<td width="200">{{item.value}}</td>
 		<td width="200">{{item.label}}</td>

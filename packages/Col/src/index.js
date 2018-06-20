@@ -6,10 +6,6 @@ export default {
       type:[Number,String], //1-24栅格
       default:'1'
     },
-    tag:{
-      type:String,
-      default:'div'
-    },
     offset:{
       type:[Number,String]//1-24栅格
     },
@@ -24,14 +20,17 @@ export default {
     }
   },
   render(h){
-    return h(this.tag,{
-      class:[
+    return (
+      <div class={[
         'hea-col',
         this.type? `hea-col-${this.type}-${this.span}`:`hea-col-${this.span}`,
         this.push?`hea-col-push-${this.push}`:'',
         this.pull?`hea-col-pull-${this.pull}`:'',
         this.offset?`hea-col-offset-${this.offset}`:''
-      ]
-    },this.$slots.default)
+      ]}>
+        {this.$slots.default}
+
+      </div>
+    )
   }
 }
