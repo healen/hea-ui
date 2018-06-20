@@ -25,16 +25,17 @@ export default {
     }
   },
   render(h) {
-    return (
-      <div class={[
+
+    return h('div',{
+      class:[
         'hea-row',
         this.pack !== 'start' ? `pack-${this.pack}` : '',
         this.align !== 'start' ? `align-${this.align}` : '',
         { 'hea-row-flex': this.type === 'flex' }
-      ]} style={this.style}>
-        {this.$slots.default}
-      </div>
-    )
+
+      ]
+    },this.$slots.default)
+
   }
 }
 

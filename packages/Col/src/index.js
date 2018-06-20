@@ -20,17 +20,17 @@ export default {
     }
   },
   render(h){
-    return (
-      <div class={[
+
+    return h('div',{
+      class:[
         'hea-col',
         this.type? `hea-col-${this.type}-${this.span}`:`hea-col-${this.span}`,
         this.push?`hea-col-push-${this.push}`:'',
         this.pull?`hea-col-pull-${this.pull}`:'',
         this.offset?`hea-col-offset-${this.offset}`:''
-      ]}>
-        {this.$slots.default}
 
-      </div>
-    )
+      ]
+    },this.$slots.default)
+
   }
 }
