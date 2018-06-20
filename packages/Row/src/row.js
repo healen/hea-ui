@@ -25,7 +25,6 @@ export default {
     }
   },
   render(h) {
-
     return (
       <div class={[
         'hea-row',
@@ -38,4 +37,6 @@ export default {
     )
   }
 }
+
+
 

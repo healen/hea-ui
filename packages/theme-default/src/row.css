@@ -28,6 +28,7 @@
       &.pack-around{
         justify-content: space-around;
       }
+
       &.align-start{
         align-items: flex-start;
       }
@@ -36,6 +37,12 @@
       }
       &.align-end{
         align-items: flex-end;
+      }
+      &.align-stretch{
+        align-items: stretch;
+      }
+      &.align-baseline{
+        align-items: baseline;
       }
     }
   }
