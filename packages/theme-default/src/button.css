@@ -17,6 +17,9 @@
         border-radius: var(--border-radius-base);
         padding: 12px 20px;
         font-size: 14px;
+        &:disabled{
+          cursor: no-drop;
+        }
         @m size-medium {
             padding: 10px 20px;
             font-size: 14px;
@@ -47,6 +50,7 @@
              background: var(--button-default-fill);
              border: var(--border-base);
              color: var(--button-default-color);
+            cursor: no-drop;
          }
         &:active {
              background: var(--color-white);
@@ -64,6 +68,7 @@
                  background: var(--button-default-fill);
                  border: 1px solid var(--color-primary);
                  color: var(--button-default-color);
+              cursor: no-drop;
              }
             }
         }
@@ -78,6 +83,7 @@
          }
         &:disabled {
              opacity: 0.3;
+          cursor: no-drop;
          }
             @when plain {
                 background: rgba(var(--color-primary), 0.05);
@@ -140,6 +146,7 @@
          }
         &:disabled {
              opacity: 0.3;
+          cursor: no-drop;
          }
             @when plain {
                 background: rgba(var(--color-info), 0.05);

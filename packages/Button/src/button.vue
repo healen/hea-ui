@@ -1,9 +1,10 @@
 <template>
-  <button @click="$emit('click')"
+  <button @click="clickfn"
           class="hea-button"
-          :disabled="disabled"
+          :disabled="disabled||loading"
           :class="['hea-button-'+type,{'is-plain': plain, 'is-disabled': disabled, 'is-round': round},'hea-button-size-'+size]">
     <i v-if="icon !== ''" :class="['hea-ico',`hea-ico-${icon}`]"></i>
+    <i v-if="loading" :class="['hea-ico',`hea-loading-1`,`hea-ico-loading`]"></i>
     <slot></slot>
   </button>
 </template>
@@ -12,7 +13,6 @@
     font-size: 18px;
     line-height: 18px;
   }
-
 </style>
 <script>
   export default{
@@ -32,7 +32,18 @@
       },
       plain: Boolean,
       disabled: Boolean,
-      round: Boolean
+      round: Boolean,
+      loading:{
+        type:Boolean,
+        default:false
+      }
+    },
+    methods:{
+      clickfn(){
+        if(this.loading==false){
+          this.$emit('click')
+        }
+      }
     },
     data () {
       return {

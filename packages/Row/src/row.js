@@ -3,7 +3,7 @@ export default {
   componentName:"HeaRow",
   props: {
 
-    gutter: Number,
+    gutter: String,
     type: String,
     pack: {
       type: String,
@@ -32,8 +32,8 @@ export default {
         this.pack !== 'start' ? `pack-${this.pack}` : '',
         this.align !== 'start' ? `align-${this.align}` : '',
         { 'hea-row-flex': this.type === 'flex' }
-
-      ]
+      ],
+      style:this.style
     },this.$slots.default)
 
   }

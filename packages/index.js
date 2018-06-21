@@ -3,6 +3,7 @@
  * Date: 18/6/3
  */
 import HeaButton from './Button/index';
+import HeaButtonGroup from './ButtonGroup/index';
 import HeaIco from './Ico/index';
 import HeaAnimate from './Animate/index';
 import HeaRow from './Row/index';
@@ -15,6 +16,7 @@ const version = pkg.version;
 
 const components = [
   HeaButton,
+  HeaButtonGroup,
   HeaIco,
   HeaAnimate,
   HeaRow,
@@ -29,6 +31,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 export {
   HeaButton,
+  HeaButtonGroup,
   HeaIco,
   HeaAnimate,
   HeaRow,
