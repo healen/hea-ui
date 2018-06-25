@@ -8,6 +8,7 @@ import HeaIco from './Ico/index';
 import HeaAnimate from './Animate/index';
 import HeaRow from './Row/index';
 import HeaCol from './Col/index';
+import HeaInput from './Input/index';
 
 
 import pkg from '../package.json'
@@ -20,7 +21,8 @@ const components = [
   HeaIco,
   HeaAnimate,
   HeaRow,
-  HeaCol
+  HeaCol,
+  HeaInput
 ];
 const install = function(Vue) {
   components.map(component => Vue.component(component.name, component))
@@ -35,7 +37,8 @@ export {
   HeaIco,
   HeaAnimate,
   HeaRow,
-  HeaCol
+  HeaCol,
+  HeaInput
 }
 export default {
   install,

@@ -59,6 +59,11 @@
           "desc": "动画&过渡",
           "name": "animate",
           "path": "/animate"
+        },
+        {
+          "desc": "input 输入框",
+          "name": "input",
+          "path": "/input"
         }
       ]
     }

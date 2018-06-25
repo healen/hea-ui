@@ -1,7 +1,14 @@
 <template>
-    <div class="hea-input">
+    <div class="hea-input" :class="[
+    size ? `hea-input-size-${size}` : '',
 
-        <input type="text" :placeholder="placeholder">
+
+    ]">
+        <input type="text"
+               :placeholder="placeholder"
+               v-model="currentValue"
+               @input="handleInput"
+               class="hea-input-inner">
     </div>
 </template>
 <style lang="less" scoped="">
@@ -9,31 +16,32 @@
         font-size: 18px;
         line-height: 18px;
     }
-
 </style>
 <script>
     export default{
         name: 'HeaInput',
         props: {
-            type: {
-                type: String,
-                default: 'default'
-            },
-            value: {
-                type: String,
-                default: 'default'
-            },
+            size: String,
+            value: [Number, String],
             icon: {
                 type: String,
                 default: ''
             },
-            plain: Boolean,
+            placeholder: {
+                type: String,
+                default: '请输入'
+            },
             disabled: Boolean,
             round: Boolean
         },
         data () {
             return {
-                msg: ''
+                currentValue: this.value
+            }
+        },
+        methods: {
+            handleInput() {
+                this.$emit('input', this.currentValue)
             }
         }
     }
