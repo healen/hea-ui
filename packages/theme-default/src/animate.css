@@ -1903,3 +1903,16 @@
 .slideOutUp-leave-active {
   animation: slideOutUp .5s reverse;
 }
+
+@keyframes rotate1 {
+  0% {
+    transform:rotate(0deg)
+  }
+  100%{
+    transform:rotate(360deg)
+  }
+}
+.hea-loading-1{
+  display: inline-block;
+  animation: rotate1 1s linear infinite;
+}

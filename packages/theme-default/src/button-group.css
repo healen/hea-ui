@@ -1,0 +1,23 @@
+.hea-button-group{
+
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .hea-button{
+    float:left;
+    margin-left: 1px!important;
+    border-radius: 0px;
+    &:first-child{
+      border-radius: 4px 0px 0px 4px;
+    }
+    &:last-child{
+      border-radius: 0px 4px 4px 0px;
+    }
+  }
+
+
+}

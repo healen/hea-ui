@@ -19,6 +19,9 @@
 > npm i -g vue-cli
 > mkdir my-project && cd my-project
 > vue init webpack
+> npm install --save-dev less-loader
+> npm install --save-dev css-loader
+> npm install --save-dev less
 
 ```
 
@@ -32,6 +35,8 @@
 
 ```js
 import HeaUi from 'hea-ui' // 引入组件库
+
+import 'hea-ui/packages/theme-default/lib/index.css' //引入样式
 
 Vue.use(HeaUi)
 ```

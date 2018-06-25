@@ -108,6 +108,63 @@
 :::
 
 
+### 带loading按钮
+
+<div class="demo-block">
+  <hea-button loading>默认按钮</hea-button>
+  <hea-button type="primary" loading>主要按钮</hea-button>
+  <hea-button type="success" loading>成功按钮</hea-button>
+  <hea-button type="info" loading>信息按钮</hea-button>
+  <hea-button type="warning" loading>警告按钮</hea-button>
+  <hea-button type="danger" loading>危险按钮</hea-button>
+</div>
+
+::: demo
+```html
+
+<hea-button loading>默认按钮</hea-button>
+<hea-button type="primary" loading>主要按钮</hea-button>
+<hea-button type="success" loading>成功按钮</hea-button>
+<hea-button type="info" loading>信息按钮</hea-button>
+<hea-button type="warning" loading>警告按钮</hea-button>
+<hea-button type="danger" loading>危险按钮</hea-button>
+
+```
+:::
+
+
+
+### 按钮组合
+
+<div class="demo-block">
+  <hea-button-group>
+    <hea-button type="primary">1</hea-button>
+    <hea-button type="primary">2</hea-button>
+    <hea-button type="primary">3</hea-button>
+    <hea-button type="primary">4</hea-button>
+    <hea-button type="primary">4</hea-button>
+  </hea-button-group>
+  
+</div>
+
+::: demo
+```html
+
+<hea-button-group>
+  <hea-button type="primary">1</hea-button>
+  <hea-button type="primary">2</hea-button>
+  <hea-button type="primary">3</hea-button>
+  <hea-button type="primary">4</hea-button>
+  <hea-button type="primary">4</hea-button>
+</hea-button-group>
+
+```
+:::
+
+
+
+
+
 
 
 ### 带icon的按钮
@@ -117,10 +174,10 @@
 <div class="demo-block">
   <div>
     <hea-button icon="heart1" type="danger">小姐姐给我个爱心吧</hea-button>
-    <hea-button type="primary" icon="clouddownload_o">下载</hea-button>
-    <hea-button type="success" icon="cloudupload_o">上传</hea-button>
-    <hea-button type="info" icon="eye_o">睁开眼</hea-button>
-    <hea-button type="warning" icon="eye_close">闭上眼</hea-button>
+    <hea-button type="primary" icon="clouddownload-o">下载</hea-button>
+    <hea-button type="success" icon="cloudupload-o">上传</hea-button>
+    <hea-button type="info" icon="eye-o">睁开眼</hea-button>
+    <hea-button type="warning" icon="eye-close">闭上眼</hea-button>
     <hea-button type="danger" icon="angular">Angular</hea-button>
   </div>
 </div>
@@ -130,10 +187,10 @@
 
 <div>
   <hea-button icon="heart1" type="danger">小姐姐给我个爱心吧</hea-button>
-  <hea-button type="primary" icon="clouddownload_o">下载</hea-button>
-  <hea-button type="success" icon="cloudupload_o">上传</hea-button>
-  <hea-button type="info" icon="eye_o">睁开眼</hea-button>
-  <hea-button type="warning" icon="eye_close">闭上眼</hea-button>
+  <hea-button type="primary" icon="clouddownload-o">下载</hea-button>
+  <hea-button type="success" icon="cloudupload-o">上传</hea-button>
+  <hea-button type="info" icon="eye-o">睁开眼</hea-button>
+  <hea-button type="warning" icon="eye-close">闭上眼</hea-button>
   <hea-button type="danger" icon="angular">Angular</hea-button>
 </div>
 
@@ -164,6 +221,10 @@ Button 组件提供除了默认值以外的三种尺寸，可以在不同场景�
 
 ```
 :::
+
+
+
+
 
 ### Attributes
 | 参数      | 说明    | 类型      | 可选值       | 默认值   |

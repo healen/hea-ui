@@ -27,6 +27,20 @@
     }
   ],
   "组件": [
+
+    {
+      "desc": "视图组件",
+      "path": "/component",
+      "items": [
+
+        {
+          "desc": "栅格系统",
+          "name": "grid",
+          "path": "/grid"
+        }
+
+      ]
+    },
     {
       "desc": "基础组件",
       "path": "/component",
@@ -46,19 +60,6 @@
           "name": "animate",
           "path": "/animate"
         }
-      ]
-    },
-    {
-      "desc": "视图组件",
-      "path": "/component",
-      "items": [
-
-        {
-          "desc": "栅格系统",
-          "name": "grid",
-          "path": "/grid"
-        }
-
       ]
     }
   ]

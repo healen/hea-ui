@@ -608,4 +608,13 @@
   --transfer-item-height: 32px;
   --transfer-item-hover-background: var(--color-light-gray);
   --transfer-filter-height: 22px;
+
+  /* screen
+  --------------------------*/
+  --screen-s:360px;
+  --screen-m:480px;
+  --screen-l:768px;
+  --screen-xl:992px;
+  --screen-xxl:1200px;
+  --screen-xxxl:1920px;
 }

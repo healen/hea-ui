@@ -3,9 +3,11 @@
  * Date: 18/6/3
  */
 import HeaButton from './Button/index';
+import HeaButtonGroup from './ButtonGroup/index';
 import HeaIco from './Ico/index';
 import HeaAnimate from './Animate/index';
 import HeaRow from './Row/index';
+import HeaCol from './Col/index';
 
 
 import pkg from '../package.json'
@@ -14,9 +16,11 @@ const version = pkg.version;
 
 const components = [
   HeaButton,
+  HeaButtonGroup,
   HeaIco,
   HeaAnimate,
   HeaRow,
+  HeaCol
 ];
 const install = function(Vue) {
   components.map(component => Vue.component(component.name, component))
@@ -27,9 +31,11 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 export {
   HeaButton,
+  HeaButtonGroup,
   HeaIco,
   HeaAnimate,
-  HeaRow
+  HeaRow,
+  HeaCol
 }
 export default {
   install,

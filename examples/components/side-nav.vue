@@ -61,14 +61,14 @@
 <template>
   <div class="side-nav">
 
-    <div class="animatebox">
-      <p>选择页面切换效果</p>
-      <select v-model="$store.state.global.currentAnimate">
-        <option value="">--动画类型--</option>
-        <option v-for="animate in $store.state.global.animateList" :value="animate.value">{{animate.label}}</option>
-      </select>
+    <!--<div class="animatebox">-->
+      <!--<p>选择页面切换效果</p>-->
+      <!--<select v-model="$store.state.global.currentAnimate">-->
+        <!--<option value="">&#45;&#45;动画类型&#45;&#45;</option>-->
+        <!--<option v-for="animate in $store.state.global.animateList" :value="animate.value">{{animate.label}}</option>-->
+      <!--</select>-->
 
-    </div>
+    <!--</div>-->
 
 
 
