@@ -1,4 +1,4 @@
-.hea-button-group{
+.h-button-group{
 
 
   &:after {
@@ -7,7 +7,7 @@
     clear: both;
   }
 
-  .hea-button{
+  .h-button{
     float:left;
     margin-left: 1px!important;
     border-radius: 0px;

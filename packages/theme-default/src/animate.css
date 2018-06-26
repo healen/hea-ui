@@ -1912,7 +1912,7 @@
     transform:rotate(360deg)
   }
 }
-.hea-loading-1{
+.h-loading-1{
   display: inline-block;
   animation: rotate1 1s linear infinite;
 }

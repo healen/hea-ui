@@ -1,10 +1,10 @@
 <template>
   <button @click="clickfn"
-          class="hea-button"
+          class="h-button"
           :disabled="disabled||loading"
-          :class="['hea-button-'+type,{'is-plain': plain, 'is-disabled': disabled, 'is-round': round},'hea-button-size-'+size]">
-    <i v-if="icon !== ''" :class="['hea-ico',`hea-ico-${icon}`]"></i>
-    <i v-if="loading" :class="['hea-ico',`hea-loading-1`,`hea-ico-loading`]"></i>
+          :class="['h-button-'+type,{'is-plain': plain, 'is-disabled': disabled, 'is-round': round},'h-button-size-'+size]">
+    <i v-if="icon !== ''" :class="['h-ico',`h-ico-${icon}`]"></i>
+    <i v-if="loading" :class="['h-ico',`h-loading-1`,`h-ico-loading`]"></i>
     <slot></slot>
   </button>
 </template>
@@ -16,7 +16,7 @@
 </style>
 <script>
   export default{
-    name: 'HeaButton',
+    name: 'HButton',
     props: {
       type: {
         type: String,

@@ -1,5 +1,5 @@
 <template>
-  <div class="hea-button-group">
+  <div class="h-button-group">
     <slot></slot>
   </div>
 </template>
@@ -11,6 +11,6 @@
 
 <script>
   export default {
-    name:'HeaButtonGroup'
+    name:'HButtonGroup'
   }
 </script>

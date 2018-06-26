@@ -55,12 +55,12 @@ export default {
 }
 ```
 
-在模板中，用 `<hea-button></hea-button>` 自定义标签的方式使用组件
+在模板中，用 `<h-button></h-button>` 自定义标签的方式使用组件
 
 ```html
 <template>
   <div>
-    <hea-button>这是一个按钮</hea-button>
+    <h-button>这是一个按钮</h-button>
   </div>
 </template>
 ```

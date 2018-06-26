@@ -1,5 +1,5 @@
 export default {
-  name:"HeaRow",
+  name:"HRow",
   componentName:"HeaRow",
   props: {
 
@@ -28,10 +28,10 @@ export default {
 
     return h('div',{
       class:[
-        'hea-row',
+        'h-row',
         this.pack !== 'start' ? `pack-${this.pack}` : '',
         this.align !== 'start' ? `align-${this.align}` : '',
-        { 'hea-row-flex': this.type === 'flex' }
+        { 'h-row-flex': this.type === 'flex' }
       ],
       style:this.style
     },this.$slots.default)

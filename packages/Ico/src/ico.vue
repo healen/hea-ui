@@ -1,7 +1,7 @@
 
 <template>
 
-  <i class="hea-ico" :class="[`hea-ico-${name}`]" :style="{color}" @click="$emit('click')" >
+  <i class="h-ico" :class="[`h-ico-${name}`]" :style="{color}" @click="$emit('click')" >
 
     <div v-if="info" class="info">{{info}}</div>
 
@@ -11,7 +11,7 @@
 
 <script>
   export default {
-    name:'HeaIco',
+    name:'HIco',
     props:{
       name:{
         type:String,

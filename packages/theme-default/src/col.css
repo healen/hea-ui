@@ -1,23 +1,23 @@
 @import "common/var.css";
 
-.hea-col{
+.h-col{
   float:left;
   box-sizing: border-box;
 
 }
 
 @for $i from 1 to 24 {
-  .hea-col-$i{
+  .h-col-$i{
     width: calc($i / 24 * 100)%;
   }
-  .hea-col-offset-$i{
+  .h-col-offset-$i{
     margin-left:calc($i / 24 * 100)%;
   }
-  .hea-col-pull-$i {
+  .h-col-pull-$i {
     position: relative;
     right: calc($i / 24 * 100)%;
   }
-  .hea-col-push-$i {
+  .h-col-push-$i {
     position: relative;
     left: calc($i / 24 * 100)%;
   }
@@ -25,19 +25,19 @@
 
   @media (max-width: 1920px) {
 
-    .hea-col-xxxl-$i{
+    .h-col-xxxl-$i{
       float:left;
       box-sizing: border-box;
       width: calc($i / 24 * 100)%;
     }
-    .hea-col-xxxl-offset-$i{
+    .h-col-xxxl-offset-$i{
       margin-left:calc($i / 24 * 100)%;
     }
-    .hea-col-xxxl-pull-$i {
+    .h-col-xxxl-pull-$i {
       position: relative;
       right: calc($i / 24 * 100)%;
     }
-    .hea-col-xxxl-push-$i {
+    .h-col-xxxl-push-$i {
       position: relative;
       left: calc($i / 24 * 100)%;
     }
@@ -45,19 +45,19 @@
 
   @media (min-width: 1200px) and (max-width: 1920px) {
 
-    .hea-col-xxl-$i{
+    .h-col-xxl-$i{
       float:left;
       box-sizing: border-box;
       width: calc($i / 24 * 100)%;
     }
-    .hea-col-xxl-offset-$i{
+    .h-col-xxl-offset-$i{
       margin-left:calc($i / 24 * 100)%;
     }
-    .hea-col-xxl-pull-$i {
+    .h-col-xxl-pull-$i {
       position: relative;
       right: calc($i / 24 * 100)%;
     }
-    .hea-col-xxl-push-$i {
+    .h-col-xxl-push-$i {
       position: relative;
       left: calc($i / 24 * 100)%;
     }
@@ -66,19 +66,19 @@
 
   @media (min-width: 992px) and (max-width:1200px) {
 
-    .hea-col-xl-$i{
+    .h-col-xl-$i{
       float:left;
       box-sizing: border-box;
       width: calc($i / 24 * 100)%;
     }
-    .hea-col-xl-offset-$i{
+    .h-col-xl-offset-$i{
       margin-left:calc($i / 24 * 100)%;
     }
-    .hea-col-xl-pull-$i {
+    .h-col-xl-pull-$i {
       position: relative;
       right: calc($i / 24 * 100)%;
     }
-    .hea-col-xl-push-$i {
+    .h-col-xl-push-$i {
       position: relative;
       left: calc($i / 24 * 100)%;
     }
@@ -86,19 +86,19 @@
 
   @media (min-width:768px) and (max-width:992px) {
 
-    .hea-col-l-$i{
+    .h-col-l-$i{
       float:left;
       box-sizing: border-box;
       width: calc($i / 24 * 100)%;
     }
-    .hea-col-l-offset-$i{
+    .h-col-l-offset-$i{
       margin-left:calc($i / 24 * 100)%;
     }
-    .hea-col-l-pull-$i {
+    .h-col-l-pull-$i {
       position: relative;
       right: calc($i / 24 * 100)%;
     }
-    .hea-col-l-push-$i {
+    .h-col-l-push-$i {
       position: relative;
       left: calc($i / 24 * 100)%;
     }
@@ -106,19 +106,19 @@
 
   @media (min-width: 480px) and (max-width: 768px) {
 
-    .hea-col-m-$i{
+    .h-col-m-$i{
       float:left;
       box-sizing: border-box;
       width: calc($i / 24 * 100)%;
     }
-    .hea-col-m-offset-$i{
+    .h-col-m-offset-$i{
       margin-left:calc($i / 24 * 100)%;
     }
-    .hea-col-m-pull-$i {
+    .h-col-m-pull-$i {
       position: relative;
       right: calc($i / 24 * 100)%;
     }
-    .hea-col-m-push-$i {
+    .h-col-m-push-$i {
       position: relative;
       left: calc($i / 24 * 100)%;
     }
@@ -126,19 +126,19 @@
 
   @media (min-width: 360px) and (max-width: 480px) {
 
-    .hea-col-s-$i{
+    .h-col-s-$i{
       float:left;
       box-sizing: border-box;
       width: calc($i / 24 * 100)%;
     }
-    .hea-col-s-offset-$i{
+    .h-col-s-offset-$i{
       margin-left:calc($i / 24 * 100)%;
     }
-    .hea-col-s-pull-$i {
+    .h-col-s-pull-$i {
       position: relative;
       right: calc($i / 24 * 100)%;
     }
-    .hea-col-s-push-$i {
+    .h-col-s-push-$i {
       position: relative;
       left: calc($i / 24 * 100)%;
     }

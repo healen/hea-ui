@@ -1,7 +1,7 @@
-# hea-ui内置动画
+# h-ui内置动画
 ----
 
-hea-ui提供了丰富的动画效果，其中包括fade动画，slide动画，zoom动画，旋转动画，以及其他动画，其中使用方法简单具体用法如下
+h-ui提供了丰富的动画效果，其中包括fade动画，slide动画，zoom动画，旋转动画，以及其他动画，其中使用方法简单具体用法如下
 
 <br>
 
@@ -142,7 +142,7 @@ hea-ui提供了丰富的动画效果，其中包括fade动画，slide动画，zo
 <div class="demo-block">
 	<template>
 	  <div>
-	    <hea-button @click="show = !show" type="primary">Click Me</hea-button>
+	    <h-button @click="show = !show" type="primary">Click Me</h-button>
 	    <div>
     		<transition v-for="(f,i) in fade" :name="f.value" :key="i">
 				<div v-show="show" class="transition-box" :key="i">
@@ -162,7 +162,7 @@ hea-ui提供了丰富的动画效果，其中包括fade动画，slide动画，zo
 
  <template>
  	<div>
-	    <hea-button @click="show = !show" type="primary">Click Me</hea-button>
+	    <h-button @click="show = !show" type="primary">Click Me</h-button>
 	    <div>
 			<transition v-for="(f,i) in fade" :name="f.value" :key="i">
 				<div v-show="show" class="transition-box" :key="i">
@@ -231,7 +231,7 @@ hea-ui提供了丰富的动画效果，其中包括fade动画，slide动画，zo
 <div class="demo-block">
 	<template>
 	  <div>
-	    <hea-button @click="showslide = !showslide" type="primary">Click Me</hea-button>
+	    <h-button @click="showslide = !showslide" type="primary">Click Me</h-button>
 	    <div>
     		<transition v-for="(f,i) in slide" :name="f.value" :key="i">
 				<div v-show="showslide" class="transition-box" :key="i">
@@ -251,7 +251,7 @@ hea-ui提供了丰富的动画效果，其中包括fade动画，slide动画，zo
 <div class="demo-block">
 	<template>
 	  <div>
-	    <hea-button @click="showzoom = !showzoom" type="primary">Click Me</hea-button>
+	    <h-button @click="showzoom = !showzoom" type="primary">Click Me</h-button>
 	    <div>
     		<transition v-for="(f,i) in zoom" :name="f.value" :key="i">
 				<div v-show="showzoom" class="transition-box" :key="i">
@@ -271,7 +271,7 @@ hea-ui提供了丰富的动画效果，其中包括fade动画，slide动画，zo
 <div class="demo-block">
 	<template>
 	  <div>
-	    <hea-button @click="showrota = !showrota" type="primary">Click Me</hea-button>
+	    <h-button @click="showrota = !showrota" type="primary">Click Me</h-button>
 	    <div>
     		<transition v-for="(f,i) in rota" :name="f.value" :key="i">
 				<div v-show="showrota" class="transition-box" :key="i">
@@ -290,7 +290,7 @@ hea-ui提供了丰富的动画效果，其中包括fade动画，slide动画，zo
 <div class="demo-block">
 	<template>
 	  <div>
-	    <hea-button @click="showother = !showother" type="primary">Click Me</hea-button>
+	    <h-button @click="showother = !showother" type="primary">Click Me</h-button>
 	    <div>
     		<transition v-for="(f,i) in othor" :name="f.value" :key="i">
 				<div v-show="showother" class="transition-box" :key="i">

@@ -1,6 +1,6 @@
 @import "common/var.css";
 
-@b hea {
+@b h{
     @e button {
         display: inline-block;
         line-height: 1;

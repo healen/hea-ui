@@ -5,7 +5,7 @@
 </template>
 <script>
   export default {
-    name:'HeaAnimate',
+    name:'HAnimate',
     props:{
       name:{
         type:String,

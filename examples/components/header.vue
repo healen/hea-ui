@@ -24,15 +24,30 @@
 <template>
   <header class="page-header" :style="$route.name === 'index' ? 'box-shadow:none' : 'box-shadow:0 10px 60px 0 rgba(29,29,31,0.07)'">
     <div class="header-container">
-      <router-link :to="{name: 'index'}"><img src="../assets/img/logo.png" width="100"></router-link>
-
-
-
+      <router-link :to="{name: 'index'}">
+        <span class="logo">
+          <span>Hea</span><span>-ui</span>
+        </span>
+      </router-link>
 
       <router-link :to="{name: 'giud'}">组件</router-link>
     </div>
   </header>
 </template>
+<style lang="less" scoped>
+  .logo{
+    font-size: 30px;
+    font-weight: bold;
+    span{
+      &:first-child{
+        color: #00aeff;
+      }
+      &:last-child{
+        color: #ff0000;
+      }
+    }
+  }
+</style>
 
 <script>
   export default {

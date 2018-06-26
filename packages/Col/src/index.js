@@ -1,6 +1,6 @@
 export default {
-  name:'HeaCol',
-  componentName:'HeaCol',
+  name:'HCol',
+  componentName:'HCol',
   props:{
     span:{
       type:[Number,String], //1-24栅格
@@ -23,11 +23,11 @@ export default {
 
     return h('div',{
       class:[
-        'hea-col',
-        this.type? `hea-col-${this.type}-${this.span}`:`hea-col-${this.span}`,
-        this.push?`hea-col-push-${this.push}`:'',
-        this.pull?`hea-col-pull-${this.pull}`:'',
-        this.offset?`hea-col-offset-${this.offset}`:''
+        'h-col',
+        this.type? `h-col-${this.type}-${this.span}`:`h-col-${this.span}`,
+        this.push?`h-col-push-${this.push}`:'',
+        this.pull?`h-col-pull-${this.pull}`:'',
+        this.offset?`h-col-offset-${this.offset}`:''
 
       ]
     },this.$slots.default)
